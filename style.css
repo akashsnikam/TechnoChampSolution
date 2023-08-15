@@ -1,0 +1,796 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(27, 27, 55);
+}
+
+/*Navigation Bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+/*Navigation Bar logo and image*/
+#logo {
+    margin: 10px 3px;
+
+}
+
+#logo img {
+    border: 2px solid rgb(174, 160, 160);
+    border-radius: 33px;
+    height: 60px;
+    margin: 3px 3px;
+    padding: 3px 3px;
+}
+
+/* Navigation Bar list style*/
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.1;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+/*Section Home*/
+
+#home {
+
+    display: flex;
+    height: 550px;
+}
+
+#home::before {
+    content: "";
+    background: url('bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#home .left img {
+    width: 400px;
+    margin: 100px 100px;
+    border-radius: 50px;
+
+}
+
+#home .right {
+    margin: 103px 23px;
+    margin-left: 123px;
+
+}
+
+.h-s {
+    margin: 23px 65px;
+    color: white;
+    font-size: 38px;
+    color: #fafafb;
+}
+
+.h-p {
+    margin: 23px 92px;
+    font-size: 24px;
+    color: #fafafb;
+}
+
+.h-primary {
+    font-size: 16px;
+    margin: 23px 3px;
+    margin-right: 213px;
+    color: #fafafb;
+}
+
+.right button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: 23px 193px;
+    margin-bottom: 10px;
+}
+.right button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.right button:hover {
+
+    box-shadow: 0 0 5px cyan;
+
+
+}
+
+
+/*courses section*/
+.h-primarycenter {
+    color: white;
+    padding: 53px 23px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+#courses {
+    background-color: rgb(27, 27, 55);
+    height: 890px;
+
+}
+
+.box a {
+    background-color: rgb(49, 49, 86);
+    box-shadow: 0 0 5px cyan;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: 23px 153px;
+    margin-bottom: 10px;
+
+}
+
+.box,
+h2,
+p {
+    color: #fff;
+    margin: 13px 13px;
+}
+
+.box a a:hover {
+    background-color: #04080c;
+
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+
+    padding: 2px 3px;
+    margin: 3px;
+
+
+
+
+}
+
+#services .box img {
+    height: 100px;
+    width: 100px;
+    margin: 3px 158px;
+
+
+
+}
+
+/*about section*/
+#about {
+    background-color: rgb(27, 27, 55);
+    height: 744px;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.h-primarycenter {
+    font-size: 43px;
+}
+
+.vision {
+
+    margin: 33px 123px;
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+    padding: 23px 23px;
+}
+
+.vision-img img {
+    width: 833px;
+    margin: 100px 100px;
+    margin-top: -4000px;
+    margin-left: 500px;
+}
+
+
+
+/*Placed student section*/
+.student {
+
+    height: 55vw;
+
+
+}
+
+.student h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+}
+
+.placement-first {
+
+    margin: 53px 123px;
+
+}
+
+.placed-first {
+    display: flex;
+
+}
+
+.stud-first {
+    display: flex;
+
+
+}
+
+.stud-first p img {
+    height: 100px;
+    width: 100px;
+    margin: 23px 108px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.stud-first p {
+    margin: 23px 43px;
+}
+
+.placed-second {
+    display: flex;
+
+
+}
+
+.stud-second {
+    display: flex;
+
+
+}
+
+.stud-second p img {
+    height: 100px;
+    width: 100px;
+    margin: 23px 108px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.stud-second p {
+    margin: 23px 43px;
+
+}
+
+
+
+/* Contact Section Styles */
+#contact {
+    background-color: rgb(27, 27, 55);
+    color: #efeaea;
+    padding: 50px;
+    text-align: center;
+    height: 30vw;
+    padding: 23px 83px;
+
+}
+
+.contact {
+    font-family: Arial, sans-serif;
+    margin-left: 3px;
+    width: 360px;
+
+
+}
+
+#contact h2 {
+    font-size: 38px;
+    margin: 23px 23px;
+}
+
+.contact h3 {
+    font-size: 21px;
+    padding: 13px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.icon {
+
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 13px;
+    fill: #0a0a0a;
+    /* You can change the color */
+    cursor: pointer;
+}
+
+.text {
+    font-size: 18px;
+    color: #0e0d0df3;
+}
+
+.contact-sec {
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 300px;
+    color: #0a0a0a;
+    width: 800px;
+    height: 250px;
+    margin: 25px 450px;
+    margin-top: -300px;
+
+}
+
+.contact-sec h4 {
+    font-size: 23px;
+    margin-top: 50px;
+
+}
+
+.contact-sec h6 {
+    font-size: 18px;
+    margin: 23px 23px;
+
+
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 12px 9px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+/*Responsiv*/
+
+@media screen and (max-width: 900px) {
+    body{
+        
+        margin-left: -323px;
+    }
+    #navbar ul {
+        display: flex;
+    }
+    
+    
+    
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.1rem;
+    
+    
+    }
+    
+    #navbar ul li a {
+        color: white;
+        display: block;
+        padding: 0px 8px;
+        border-radius: 20px;
+        text-decoration: none;
+    
+    }
+    
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    
+    }
+    
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 330px;
+        
+        
+    }
+
+    
+
+    #home {
+
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        margin-left: 330px;
+    }
+
+    #home::before {
+        content: "";
+        background: url('bg.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #home .left img {
+        width: 180px;
+        margin: 50px 70px;
+        border-radius: 50px;
+
+    }
+
+    #home .right {
+        margin: 0px 0px;
+        margin-left: -10px;
+
+    }
+
+    .h-s {
+        justify-content: center;
+        align-items: center;
+        margin: 13px 0px;
+        margin-left: 23px;
+        
+        font-size: 28px;
+
+    }
+
+    .h-p {
+        margin: 15px 0px;
+        margin-left: 29px;
+        font-size: 20px;
+
+
+    }
+
+    .h-primary {
+        margin: 16px 5px;
+        margin-left: 24px;
+        font-size: 15px;
+
+    }
+
+    .right button {
+        margin: 32px 100px;
+
+    }
+
+   
+    #about {
+
+        background-color: rgb(27, 27, 55);
+        height: auto;
+        color: white;
+        font-size: 1rem;
+        margin-left: 330px;
+
+    }
+
+    .h-primarycenter {
+        font-size: 30px;
+    }
+
+    .vision {
+        display: flex;
+
+        margin: 3px 40px;
+        width: auto;
+        height: auto;
+        font-size: 15px;
+        padding: 3px 3px;
+    }
+
+    .vision-img img {
+        width: 223px;
+        margin: 0px 10px;
+        
+       
+    }
+
+
+
+
+ 
+
+
+    #courses {
+        background-color: rgb(27, 27, 55);
+        height: auto;
+        margin: 3px 3px;
+        margin-left: 330px;
+        
+        
+
+    }
+
+    .box a {
+
+        justify-content: center;
+        text-align: center;
+        display: block;
+        margin: 23px 3px;
+        margin-left: 50px;
+        width: 200px;
+
+
+    }
+
+    .box,
+    h2,
+    p {
+        color: #fff;
+        margin: 13px 13px;
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    .box,
+    p {
+        color: #fff;
+        margin: 23px 13px;
+        font-size: 9px;
+        margin-left: 50px;
+    }
+
+    .box a a:hover {
+        background-color: #04080c;
+
+    }
+
+    #services {
+        flex-direction: column;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 00px;
+    }
+
+    #services .box {
+
+        padding: 2px 3px;
+        margin: 3px;
+
+
+
+
+    }
+
+    #services .box img {
+        height: 100px;
+        width: 100px;
+        margin: 3px 8px;
+        margin-left: 120px;
+
+    }
+
+
+   
+    .student {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+        margin-left: 330px;
+        
+
+    }
+
+    .student h2 {
+
+        font-size: 30px;
+        margin-right: 43px;
+       
+    }
+
+    .placement-first {
+        flex-direction: column-reverse;
+        margin: 53px 33px;
+
+    }
+
+    .placed-first {
+        flex-direction: column;
+
+    }
+
+    .stud-first {
+        display: flex;
+
+
+    }
+
+    .stud-first p img {
+        height: 100px;
+        width: 100px;
+        margin: 23px 40px;
+        border: 2px solid black;
+        border-radius: 100px;
+    }
+
+    .stud-first p {
+        margin: 23px 53px;
+        font-size: 15px;
+    }
+
+    .placed-second {
+        flex-direction: column-reverse;
+        
+
+
+    }
+
+    .stud-second {
+        display: flex;
+
+
+    }
+
+    .stud-second p img {
+        height: 100px;
+        width: 100px;
+        margin: 23px 40px;
+        border: 2px solid black;
+        border-radius: 100px;
+    }
+
+    .stud-second p {
+        margin: 23px 53px;
+        font-size: 15px;
+
+    }
+
+
+   
+    #contact {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 330px;
+
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        width: 300px;
+        margin: 23px -63px;
+
+
+    }
+
+    #contact h2 {
+        font-size: 30px;
+        margin: 23px 23px;
+    }
+
+    .contact h3 {
+        font-size: 18px;
+        padding: 13px;
+    }
+
+    .icon-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 18px;
+        border: 2px solid white;
+        background-color: white;
+    }
+
+    .icon {
+
+        width: 30px;
+        height: 30px;
+        margin-right: -21px;
+        margin-left: 0px;
+        fill: #0a0a0a;
+        
+        cursor: pointer;
+    }
+
+    .text {
+        font-size: 18px;
+        color: #0e0d0df3;
+    }
+
+    .contact-sec {
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+        height: 150px;
+        margin: 5px -70px;
+        
+        margin-top: 50px;
+
+    }
+
+    .contact-sec h4 {
+        font-size: 11px;
+        margin-top: 29px;
+
+    }
+
+    .contact-sec h6 {
+        font-size: 12px;
+        margin: 0px 3px;
+
+
+    }
+    footer{
+        margin-left: 313px;
+    }
+}
+
+

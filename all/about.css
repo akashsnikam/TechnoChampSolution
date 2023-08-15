@@ -1,0 +1,248 @@
+
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.akash {
+    color: white;
+    margin: 200px;
+    margin-top: 10px;
+    padding: 33px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Placed student section*/
+.student{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vw;
+    
+    
+}
+.student h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+}
+.placement-first{
+    
+    margin: 53px 123px;
+    
+}
+
+.placed-first{
+    display: flex;
+
+}
+.stud-first{
+    display: flex;
+    
+    
+}
+.stud-first p img{
+    height: 100px;
+    width: 100px;
+    margin: 23px 108px;
+    border: 2px solid black;
+    border-radius: 100px;  
+}
+.stud-first p {
+    margin: 23px 43px;
+}
+
+.placed-second{
+    display: flex;
+  
+
+}
+.stud-second{
+    display: flex;
+    
+    
+}
+.stud-second p img{
+    height: 100px;
+    width: 100px;
+    margin: 23px 108px;
+    border: 2px solid black;
+    border-radius: 100px;  
+}
+.stud-second p {
+    margin: 23px 43px;
+
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    .akash {
+        
+        margin: 50px 50px;
+        margin-top: 500px;
+        margin-left: 730px;
+        
+    }
+    
+    .student{
+       height: 30vw;
+        
+        
+    }
+    .student h2{
+        
+        font-size: 32px;
+    }
+    .placement-first{
+        
+        margin: 53px 123px;
+        
+    }
+    
+    .placed-first{
+        
+    
+    }
+    .stud-first{
+        display: flex;
+        
+        
+    }
+    .stud-first p img{
+        height: 100px;
+        width: 100px;
+        margin: 23px 108px;
+        border: 2px solid black;
+        border-radius: 100px;  
+    }
+    .stud-first p {
+        margin: 23px 43px;
+    }
+    
+    .placed-second{
+        
+      
+    
+    }
+    .stud-second{
+        display: flex;
+        
+        
+    }
+    .stud-second p img{
+        height: 100px;
+        width: 100px;
+        margin: 23px 108px;
+        border: 2px solid black;
+        border-radius: 100px;  
+    }
+    .stud-second p {
+        margin: 23px 43px;
+    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        
+        margin-left: -1100px;
+        
+        
+        
+    }
+    .akash {
+       
+        margin-top: 10px;
+        height: auto;   
+    }
+    .akash h1{
+        margin-left: 93px;
+        margin-right: 32px;
+    }
+    .akash h2{
+        margin-left: 103px;
+        margin-right: 32px;
+    }
+    
+    .student {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+        margin-left: 330px;
+        
+
+    }
+
+    .student h2 {
+
+        font-size: 30px;
+        
+       
+    }
+
+    .placement-first {
+        flex-direction: column-reverse;
+        margin: 53px 0px;
+        margin-left: 56px;
+
+    }
+
+    .placed-first {
+        flex-direction: column;
+
+    }
+
+    .stud-first {
+        display: flex;
+       
+
+
+    }
+
+    .stud-first p img {
+        height: 100px;
+        width: 100px;
+        margin: 23px 40px;
+        border: 2px solid black;
+        border-radius: 100px;
+    }
+
+    .stud-first p {
+        margin: 23px 53px;
+        font-size: 15px;
+    }
+
+    .placed-second {
+        flex-direction: column-reverse;
+        
+
+
+    }
+
+    .stud-second {
+        display: flex;
+
+
+    }
+
+    .stud-second p img {
+        height: 100px;
+        width: 100px;
+        margin: 23px 40px;
+        border: 2px solid black;
+        border-radius: 100px;
+    }
+
+    .stud-second p {
+        margin: 23px 53px;
+        font-size: 15px;
+
+    }
+}
